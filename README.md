@@ -49,7 +49,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
             return false;
         }
         var d = new Date(result[1],result[3]-1,$result[4])
-        return d.getFullYear()==result[1]&&(d.getMonth()+1)==result[3]&&d.getDate()==result[4];
+        return d.getFullYear() == result[1] && (d.getMonth() + 1) == result[3] && d.getDate() == result[4];
     }
 ```
 
@@ -61,7 +61,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
                return false;
            }
            var d = new Date(result[1], result[2] - 1);
-           return (d.getFullYear() == result[1] && (d.getMonth() + 1) == result[2]);
+           return d.getFullYear() == result[1] && (d.getMonth() + 1) == result[2];
        }
 
 ```
