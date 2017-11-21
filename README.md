@@ -37,10 +37,10 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 
-#Welcome to my Blog
+# Welcome to my Blog
 
-##2017年11月21日
-###js验证年月日(yyyy-mm-dd)格式
+## 2017年11月21日
+### js验证年月日(yyyy-mm-dd)格式
 
 ``` bash
     function dateCheck(dateString){
@@ -53,7 +53,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
     }
 ```
 
-###js验证年月日(yyyymm)格式
+### js验证年月日(yyyymm)格式
 ``` 
    function dateCheck(dateString) {
            var result = dateString.match(/^(\d{1,4})(\d{1,2})$/);
