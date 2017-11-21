@@ -54,8 +54,8 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ```
 
 ### js验证年月日(yyyymm)格式
-``` 
-   function dateCheck(dateString) {
+``` bash
+   function dateCheck(dateString) {
            var result = dateString.match(/^(\d{1,4})(\d{1,2})$/);
            if (result == null) {
                return false;
