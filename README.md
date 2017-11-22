@@ -72,6 +72,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ### blade 当数据存在时输出数据值，不存在时输出Default
 ```bash
-   {{$name or 'Defalt'}}
+   '{{$name or 'Defalt'}}'
 ```
 
