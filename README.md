@@ -35,4 +35,9 @@
 ```bash
    '{{$name or 'Defalt'}}'
 ```
-
+## 2017年11月22日
+### bash->zsh
+ 当bash换成zsh时，出现command not found 时，可以执行
+```bash
+   export PATH="$HOME/.composer/vendor/bin:$PATH"
+```
